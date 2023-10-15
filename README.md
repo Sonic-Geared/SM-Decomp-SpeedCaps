@@ -1,2 +1,2 @@
-# Max Control
-Simple Mod that allows sonic's moveset to be customised freely
+# Speed Caps
+Simple Mod that adds the Speed Cap & Air Speed Cap to the game
