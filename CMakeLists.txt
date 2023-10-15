@@ -27,10 +27,12 @@ option(MOD_INCLUDE_EDITOR "Whether or not to include editor functions. Defaults 
 add_library(SpeedCaps SHARED
     GameAPI/C/GameAPI/Game.c
     ${MOD_NAME}/dllmain.c
+    ${MOD_NAME}/Objects/Player.c
 )
 
 target_include_directories(SpeedCaps PRIVATE
     ${MOD_NAME}/
+    ${MOD_NAME}/Objects/
     GameAPI/C/
 )
 
